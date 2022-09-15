@@ -63,6 +63,9 @@ form,
     margin-bottom: auto; 
     font-size: 20px;
 }
+#nav1 a{
+    text-decoration: none;
+}
 footer{
     flex: 0 0 auto;
     width: 100%;
