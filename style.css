@@ -52,7 +52,8 @@ ol,
 table,
 form,
 #nav1 {
-    margin: 10px auto;
+    margin-left: 300pt;
+    margin-right: 300px;
     max-width: 960px;
     padding: 10px;
 }
