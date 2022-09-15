@@ -1,0 +1,73 @@
+html{
+    height: 100%;
+}
+body {
+    margin: 0px;
+    background-color: rgba(55, 110, 60, 0.315);
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid grey;
+    width: 600px;
+    text-align: center;
+}
+
+td,
+th {
+    border: 1px solid grey;
+    padding: 10px 15px;
+}
+
+tr.chet {
+    background: rgb(127, 219, 130);
+
+}
+
+tr.nechet {
+    background: rgb(127, 219, 164);
+
+}
+
+th {
+    background: rgb(30, 105, 76);
+}
+
+header {
+    background-color: rgb(30, 105, 76);
+    padding: 10px;
+    height: 120px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+ol,
+table,
+form,
+#nav1 {
+    margin: 10px auto;
+    max-width: 960px;
+    padding: 10px;
+}
+#nav1
+{
+    margin: auto; 
+    font-size: 20px;
+}
+footer{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(11, 37, 27);
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    size: 15px;
+}
