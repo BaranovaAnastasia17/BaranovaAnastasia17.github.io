@@ -71,14 +71,14 @@ header h1{
     margin-top: 10px;
     font-size: 20px;
     clear: both;
-    text-align: center;
-    display: inline-block;
+   
 }
 
 #nav1 a {
     text-decoration: none;
+     text-align: center;
+    display: inline-block;
 }
-
 footer {
     flex: 0 0 auto;
     width: 100%;
