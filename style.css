@@ -76,7 +76,10 @@ header h1{
 
 #nav1 a {
     text-decoration: none;
-     text-align: center;
+}
+
+.nav{
+    text-align: center;
     display: inline-block;
 }
 footer {
