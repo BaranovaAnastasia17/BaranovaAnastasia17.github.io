@@ -78,9 +78,13 @@ header h1{
     text-decoration: none;
 }
 
-.nav{
+#nav1 ul{
+    
     text-align: center;
-    display: inline-block;
+    
+}
+#nav1 ul li{
+display: inline-block;
 }
 footer {
     flex: 0 0 auto;
