@@ -6,6 +6,7 @@ html {
 
 body {
     margin: 0px;
+    width:100%;
     background-color:rgba(7, 80, 52, 0.308);
 }
 
@@ -102,6 +103,9 @@ footer {
     size: 15px;
    
 }
+    .footer{
+        width:100%;
+    }
 }
 
 
