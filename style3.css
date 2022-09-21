@@ -2,7 +2,7 @@
 html {
     height: 100%;
 }
-@media screen and (max-device-width: 640px)
+@media screen and (max-device-width: 1200px)
     {
 body {
     margin: 0px;
@@ -107,7 +107,7 @@ footer {
         width:100%;
     }
 }
-@media screen and (min-device-width: 640px)
+@media screen and (min-device-width: 1500px)
     {
 body {
     margin: 0px;
