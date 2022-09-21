@@ -107,7 +107,8 @@ footer {
         width:100%;
     }
 }
-
+@media screen and (min-device-width: 640px)
+    {
 body {
     margin: 0px;
     background-color:rgba(7, 80, 52, 0.308);
@@ -209,4 +210,5 @@ footer {
 .footer{
     margin: 0 auto;
     max-width: 960px;
+}
 }
