@@ -1,4 +1,4 @@
-@media screen and (max-width: 800vw)
+@media screen and (max-device-width: 400vw)
 {
 html {
     height: 100%;
