@@ -1,9 +1,9 @@
-@media screen and (max-device-width: 400px)
-{
+
 html {
     height: 100%;
 }
-
+@media screen and (max-device-width: 640px)
+    {
 body {
     margin: 0px;
     width:100%;
@@ -106,11 +106,6 @@ footer {
     .footer{
         width:100%;
     }
-}
-
-
-html {
-    height: 100%;
 }
 
 body {
