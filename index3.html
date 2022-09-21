@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style3.css">
+    <title>Задание 3</title>
+</head>
+
+<body>
+    <header>
+        <div class="shapka">
+            <img src="cat.png" alt="тут коты" id="logo">
+            <h1>"Мяу" на разных языках</h1>
+        </div>
+    </header>
+    
+        <nav id="nav1">
+            <a href="#beginning">список ссылок</a> &nbsp;
+            <a href="#tb">таблица</a> &nbsp;
+            <a href="#end">форма</a>
+
+        </nav>
+        <div class="main">
+        <ol>
+            <li> <a href="http://example.com" id="beginning"> мяу </a></li>
+            <li> <a href="https://example.com"> meow </a></li>
+            <li> <a href="ftp://example.com/miau.html"> miau </a></li>
+            <li> <a href="ftp://user:password@example.com/miao.html"> miao </a></li>
+            <li> <a href="https://en.wikipedia.org/wiki/Cat#Characteristics"> mjau </a></li>
+            <li> <a href="#cat"> miaou </a></li>
+            <li> <a href="http://example.com/?filter1=p1&filter2=p2"> meu </a></li>
+            <li>
+                <nav>
+                    <ul>
+                        <li> <a title="конец" href="/#end"> miaau </a></li>
+                        <li> <a title="начало" href="/#beginning"> mijau </a></li>
+                    </ul>
+                </nav>
+            </li>
+            <li> <a> muyawo </a></li>
+            <li> <a href=""> miav </a></li>
+            <li> <a href="http://example.com" rel="nofollow"> muv </a></li>
+            <li>
+                <!--noindex--> <a href="http://example.com"> mav </a>
+                <!--/noindex-->
+            </li>
+            <li>
+                <p> meo<a href="http://example.com"> meo </a> meo</p>
+            </li>
+            <li>
+                <p id="cat"><a href="http://example.com"><img src="Cat-and-computer.JPG" alt="тут кот" height="300"
+                            width="400"></a></p>
+            </li>
+            <li>
+                <p><img src="cats.jpg" width="433" height="433" usemap="#map" alt="тут коты"></p>
+                <p>
+                    <map name="map"> <area shape="rect" alt="прямоугольник" coords="235,130,400,300"
+                            href="http://example.com">
+                        <area shape="circle" alt="круг" coords="115,215,83" href="http://example.com"></map>
+                </p>
+            </li>
+            <li> <a href="./16.html"> мияу </a></li>
+            <li> <a href="about/17.html"> maullar </a></li>
+            <li> <a href="../18.html"> meong </a></li>
+            <li> <a href="../../19.html"> miyav </a></li>
+            <li> <a href="/"> миау </a></li>
+            <li> <a href="/about"> mijau </a></li>
+        </ol>
+        <br>
+    </div>
+    <div class="table">
+        <table id="tb">
+            <caption>
+                <h3>Таблица</h3>
+            </caption>
+            <tbody>
+                <tr>
+                    <th>колонка 1</th>
+                    <th>колонка 2</th>
+                    <th>колонка 3</th>
+                </tr>
+                <tr class="nechet">
+                    <td>1.1</td>
+                    <td>1.2</td>
+                    <td>1.2</td>
+                </tr>
+                <tr class="chet">
+                    <td colspan="3">2.1 2.2 2.3</td>
+                </tr>
+                <tr class="nechet">
+                    <td>3.1</td>
+                    <td colspan="2">3.2 3.3</td>
+                </tr>
+                <tr class="chet">
+                    <td colspan="2">4.1 4.2</td>
+                    <td>4.3</td>
+                </tr>
+                <tr class="nechet">
+                    <td>5.1</td>
+                    <td>5.2</td>
+                    <td>5.3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="form">
+        <form action="/" method="POST">
+            <h3 id="end">Форма</h3>
+            <label>
+                Введите имя:<br>
+                <input name="field-name-1" value="введите имя">
+            </label>
+            <br>
+            <label>
+                Введите e-mail:<br>
+                <input name="field-email" type="email" placeholder="Введите вашу почту">
+            </label>
+            <br>
+            <label>
+                Введите дату рождения:<br>
+                <input name="field-date" value="2019-08-13" type="date">
+            </label>
+            <br>
+            Пол:
+            <br>
+            <label>
+                <input type="radio" checked="checked" name="radio-group-1" value="f">
+                Женский
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="radio-group-1" value="m">
+                Мужской
+            </label>
+            <br>
+            Кол-во конечностей:
+            <br>
+            <label>
+                <input type="radio" name="radio-group-2" value="0">
+                0
+            </label>
+            <label>
+                <input type="radio" name="radio-group-2" value="1">
+                1
+            </label>
+            <label>
+                <input type="radio" name="radio-group-2" value="2">
+                2
+            </label>
+            <label>
+                <input type="radio" name="radio-group-2" value="3">
+                3
+            </label>
+            <label>
+                <input type="radio" checked="checked" name="radio-group-2" value="4">
+                4
+            </label>
+            <br>
+            <label>
+                Выберите сверхспособности:
+                <br>
+                <select name="field-name-4[]" multiple="multiple">
+                    <option value="Значение1">бессмертие</option>
+                    <option value="Значение2" selected="selected">прохождение сквозь стены</option>
+                    <option value="Значение3" selected="selected">левитация</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                Распишите свою биографию:
+                <br>
+                <textarea name="field-name-2">впишите биографию</textarea>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" checked="checked" name="check-1">
+                С контрактом ознакомлен(а)
+            </label>
+            <br>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+        (с) Баранова Анастасия 2022
+        </div>
+    </footer>
+
+</body>
+
+</html>
