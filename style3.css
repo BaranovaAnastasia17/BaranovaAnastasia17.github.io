@@ -149,5 +149,9 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
   }
+  .form {
+    order: 0;
+  }
+  
 
 }
