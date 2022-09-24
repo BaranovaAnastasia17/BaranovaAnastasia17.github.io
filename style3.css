@@ -9,14 +9,15 @@ footer {
   background-color: rgba(7, 80, 52, 0.308);
 
 }
-body
-{
+
+body {
   display: flex;
   flex-direction: column;
   height: 100%;
   background-color: rgba(7, 80, 52, 0.308);
 
 }
+
 table {
   border-collapse: collapse;
   border: 3px solid grey;
@@ -69,9 +70,11 @@ header h1 {
   margin: 0 auto;
   width: 100%;
 }
-.vse{
+
+.vse {
   flex: 1 0 auto;
 }
+
 .main,
 .table,
 #nav1,
@@ -122,7 +125,7 @@ footer {
   padding-top: 10px;
   color: aliceblue;
   size: 15px;
-  flex: 0 0 auto ;
+  flex: auto auto auto;
 
 }
 
@@ -144,7 +147,7 @@ footer {
   #nav1 ul {
     text-align: center;
     padding-left: 20px;
-    padding-rigth: 20px;
+    padding-right: 20px;
   }
 
   #nav1 ul li {
@@ -152,9 +155,10 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
   }
+
   .form {
     order: 0;
   }
-  
+
 
 }
