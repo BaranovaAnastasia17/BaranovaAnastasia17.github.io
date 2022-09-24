@@ -59,7 +59,7 @@ header {
   float: left;
   width: 100px;
   height: 100px;
-  padding-right: 10px;
+  padding-right: 40vw;
 }
 
 header h1 {
@@ -126,7 +126,7 @@ footer {
   color: aliceblue;
   size: 15px;
   flex: 0 0 auto;
-  margin-bottom: 0%;
+  margin-bottom: -1vw;
 
 }
 
@@ -136,6 +136,10 @@ footer {
   .shapka {
     margin: 0 auto;
     max-width: 960px;
+  }
+
+  #logo {
+    padding-right: 10px;
   }
 
   .main,
