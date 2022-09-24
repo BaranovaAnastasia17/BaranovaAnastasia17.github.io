@@ -125,7 +125,8 @@ footer {
   padding-top: 10px;
   color: aliceblue;
   size: 15px;
-  flex: auto auto auto;
+  flex: 0 0 auto;
+  margin-bottom: 0%;
 
 }
 
