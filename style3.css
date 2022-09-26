@@ -1,7 +1,13 @@
-html {
+html,body {
   height: 100%;
 }
-
+.vse {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100%;
+  flex: 1 0 auto;
+}
 body,
 footer {
   margin: 0px;
@@ -21,8 +27,9 @@ body {
 table {
   border-collapse: collapse;
   border: 3px solid grey;
-  width: 600px;
+  width: 40vw;
   text-align: center;
+  
 }
 
 td,
@@ -47,9 +54,9 @@ th {
 
 header {
   background-color: rgb(30, 105, 76);
-  padding: 10px;
+  padding: 4vw;
   height: 120px;
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
   flex: 0 0 auto;
 
@@ -57,13 +64,14 @@ header {
 
 #logo {
   float: left;
-  width: 100px;
-  height: 100px;
-  padding-right: 40vw;
+  max-width: 100%;
+  height: auto;
+  
 }
 
 header h1 {
-  padding: 30px;
+  float: right;
+  font-size: 5vw;
 }
 
 .shapka {
@@ -71,9 +79,7 @@ header h1 {
   width: 100%;
 }
 
-.vse {
-  flex: 1 0 auto;
-}
+
 
 .main,
 .table,
@@ -82,11 +88,11 @@ header h1 {
 footer {
   margin: 0 auto;
   width: 100%;
-  padding: 10px;
   background-color: rgba(18, 65, 47, 0.233);
-  padding-top: 5px;
-  padding-bottom: 10px;
   margin-bottom: 10px;
+  padding: 10px;
+  padding-top: 5px;
+  padding:3vw 4vw 4vw 4vw ;
 }
 
 #nav1 {
@@ -106,42 +112,70 @@ footer {
   list-style-type: none;
 }
 
-.order {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 
 .form {
-  order: -1;
+  order: 1;
 }
-
+.table {
+  order: 2;
+  
+}
 
 footer {
 
-  width: 100%;
+  width: 100vw;
   height: 80px;
   background-color: rgb(11, 37, 27);
-  padding-top: 10px;
+  padding-top: 0;
   color: aliceblue;
   size: 15px;
-  flex: 0 0 auto;
   margin-bottom: -1vw;
-
+  order:3;
+  flex: 0 0 auto;
 }
 
-
+#img1{
+  max-width: 100%;
+  height: auto;
+}
+#img2{
+  max-width: 100%;
+  height: auto;
+}
 
 @media screen and (min-device-width: 1000px) {
+
   .shapka {
     margin: 0 auto;
     max-width: 960px;
   }
-
+  header{
+    width: 100%;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header h1 {
+    float: none;
+    font-size: 2em;
+    padding: 30px;
+  }
   #logo {
     padding-right: 10px;
+  
+    width: 100px;
+    height: 100px;
   }
 
+  #img1{
+    height:300px;
+    width:400px;
+  }
+  #img2{
+    width:433px;
+    height:433px;
+  }
   .main,
   .table,
   #nav1,
@@ -161,9 +195,31 @@ footer {
     margin-right: 10%;
   }
 
-  .form {
-    order: 0;
+  
+  .table {
+    order: 1;
+    
   }
-
-
+  
+  table {
+    width: 600px;
+  }
+  .main,
+.table,
+#nav1,
+.form,
+footer {
+  width: 100%;
+  
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+footer{
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  
+}
 }
